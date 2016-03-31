@@ -1,7 +1,7 @@
 # vendor_nvidia_tegra
 NVIDIA Licensed Binaries for Tegra 124 SOC
 
-To include the NVIDIA binaries in your build add these includes to your device and BoardConfig:
+To include the NVIDIA binaries in your build add these lines to your device and BoardConfig:
 
 device.mk:
 
