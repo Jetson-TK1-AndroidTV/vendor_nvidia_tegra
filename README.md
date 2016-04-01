@@ -12,5 +12,7 @@ $(call inherit-product-if-exists, vendor/nvidia/tegra/core/android/t124/full.mk)
 BoardConfig.mk
 
 TARGET_BOARD_PLATFORM := tegra
+
 TARGET_TEGRA_VERSION := t124
+
 TARGET_TEGRA_FAMILY := t12x
