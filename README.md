@@ -7,6 +7,8 @@ device.mk:
 
 $(call inherit-product-if-exists, vendor/nvidia/tegra/core/nvidia-tegra-vendor.mk)
 
+$(call inherit-product-if-exists, vendor/nvidia/tegra/core/android/t124/full.mk)
+
 BoardConfig.mk
 
 TARGET_BOARD_PLATFORM := tegra
